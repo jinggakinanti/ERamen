@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+header{
+    position: fixed;
+    top:0; 
+    right:0;
+    width:100%;
+    background: rgb(219, 195, 211);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    z-index: 1000;
+    padding: 10px 170px;
+}
+
+.logo{
+    color: rgba(204, 77, 77, 1);
+    /*font-weight: bolder;*/
+    font-family: "Cherry Bomb One";
+    font-size:x-large;
+    font-size: 1.5cm;
+    margin-left: 20px;
+    height: 80px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color:rgba(204, 77, 77, 1);
+    font-family: "Geologica";
+    font-size: 1.2rem;
+    font-weight: 0;
+    padding: 10px 20px;
+    transition: .4s ;
+}
+
+.navbar a:hover{
+    color:rgba(10, 28, 45);
+}
+
+.about {
+    position: relative;
+    font-size: 90px;
+    top: 140px;
+    color: white;
+    text-align: center;
+}
+
+.us {
+    position: relative;
+    font-size: 40px;
+    width: 1242px;
+    text-align: center;
+    color: white;
+    top: 160px;
+    left: 100px;
+}
+
+.us b {
+    color: rgba(204, 77, 77, 1);
+}
+
+.visi {
+    position: relative;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    left: 100px;
+    top: 160px;
+    width: 1242px;
+}
+
+.misi {
+    position: relative;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    left: 100px;
+    width: 1242px;
+    top: 170px;
+}
+
+footer {
+    background-color: rgb(219, 195, 211);
+    color: black;
+    font-family: 'Poppins';
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
